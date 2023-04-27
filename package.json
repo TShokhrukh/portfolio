@@ -6,6 +6,7 @@
     "@bem-react/core": "^5.1.0",
     "@bem-react/di": "^5.0.0",
     "@eo-locale/react": "^1.7.0",
+    "gardevoir": "^1.0.0",
     "mobx": "^6.9.0",
     "mobx-react": "^7.6.0",
     "react": "^18.2.0",
