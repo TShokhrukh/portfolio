@@ -22,7 +22,7 @@ export function withLocalization (service: ILocalizationService) {
     return observer(function withLocalizationWrapper (props: TWrapperProps<T>) {
       return (
         <LocalizationContext.Provider value={service}>
-          <TranslationsProvider language={service.language} locales={service.locales}>
+          <TranslationsProvider language={service.language} locales={service.locales} onError={service.onError}>
             <WithLocalizationChild />
             <Component {...props as any} />
           </TranslationsProvider>

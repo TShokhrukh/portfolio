@@ -6,4 +6,6 @@ export interface ILocalizationService {
   translator?: Translator
   isLoading: boolean
   setLanguage(language: string): void
+
+  onError?(): void
 }
