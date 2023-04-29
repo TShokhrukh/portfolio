@@ -1,13 +1,13 @@
 /* global test, expect, describe */
 import React from 'react'
+import { act } from 'react-dom/test-utils'
 import { render, screen } from '@testing-library/react'
-import { withLocalization } from '../withLocalization'
-import { makeObservable, observable } from 'mobx'
+import type { Locale, Translator } from '@eo-locale/core'
 import { Text } from '@eo-locale/react'
+import { makeObservable, observable } from 'mobx'
+import { withLocalization } from '../withLocalization'
 
 import type { ILocalizationService } from '../__types__'
-import type { Locale, Translator } from '@eo-locale/core'
-import { act } from 'react-dom/test-utils'
 
 describe('withLocalization', () => {
   class LocalizationService implements ILocalizationService {
