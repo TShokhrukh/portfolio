@@ -8,6 +8,7 @@
         "standard"
     ],
     "parser": "@typescript-eslint/parser",
+    "ignorePatterns": ["*.json", "*.html", "*.css"],
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -22,6 +23,7 @@
     "rules": {
         "@typescript-eslint/no-unused-vars": ["warn", { "varsIgnorePattern": "^_", "argsIgnorePattern": "^_" }],
         "no-unused-vars": ["warn", { "varsIgnorePattern": "^_", "argsIgnorePattern": "^_" }],
-        "jsx-quotes": ["error", "prefer-single"]
+        "jsx-quotes": ["error", "prefer-single"],
+        "react/display-name": "error"
     }
 }
