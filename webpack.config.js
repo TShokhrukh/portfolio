@@ -43,11 +43,7 @@ const configuration = {
       },
       {
         test: /\.(svg|png)$/,
-        loader: 'file-loader',
-        options: {
-          name: IS_DEV ? '[name].[contenthash].[ext]' : '[hash].[ext]',
-          outputPath: './assets'
-        }
+        type: 'asset/resource'
       }
     ]
   },
