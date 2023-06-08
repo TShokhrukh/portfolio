@@ -1,0 +1,39 @@
+
+$white: #fff;
+$dark: #090E16;
+$rose: #C83267;
+$purple: #7B4AE2;
+
+$colors: (
+  'white': $white,
+  'dark': $dark,
+  'rose': $rose,
+  'purple': $purple
+);
+
+$spacer: 8px;
+$font-size: 16px;
+
+$body-background: $dark;
+$body-color: rgba($white, 0.5);
+
+$link-color: $body-color;
+
+$border-radius: 8px;
+
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
