@@ -1,7 +1,9 @@
 declare global {
   namespace NodeJS {
     interface ProcessEnv {
-      REACT_APP_DEFAULT_LANGUAGE: string
+      DEFAULT_LANGUAGE: string,
+      SUPPORTED_LANGUAGE: string,
+      NODE_ENV: 'development'|'production'
     }
   }
 }
