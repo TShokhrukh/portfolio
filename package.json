@@ -19,6 +19,7 @@
     "@types/node": "^20.2.1",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
+    "@types/react-fontawesome": "^1.6.5",
     "@types/webpack": "^5.28.0",
     "@typescript-eslint/eslint-plugin": "^5.59.6",
     "@typescript-eslint/parser": "^5.59.6",
@@ -65,12 +66,14 @@
     "@bem-react/core": "^5.1.0",
     "@bem-react/di": "^5.0.0",
     "@eo-locale/react": "^1.7.0",
+    "font-awesome": "^4.7.0",
     "gardevoir": "^1.0.0",
     "mobx": "^6.9.0",
     "mobx-react": "^7.6.0",
     "mobx-utils": "^6.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-fontawesome": "^1.7.1",
     "tsyringe": "^4.7.0"
   }
 }
