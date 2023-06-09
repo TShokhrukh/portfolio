@@ -1,0 +1,13 @@
+
+.Container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@each $breakpoint, $max-width in $container-max-widths {
+  @include media-breakpoint-up($breakpoint) {
+    .Container {
+      max-width: #{$max-width};
+    }
+  }
+}
