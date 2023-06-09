@@ -10,6 +10,17 @@ describe('Button', () => {
     expect(screen.getByTestId('button')).toMatchSnapshot()
   })
 
+  test('render start icon', () => {
+    render(<Button startIcon={() => <i data-testid='button_icon' />} />)
+
+    expect(screen.getByTestId('button_icon')).toBeInTheDocument()
+  })
+  test('render end icon', () => {
+    render(<Button endIcon={() => <i data-testid='button_icon' />} />)
+
+    expect(screen.getByTestId('button_icon')).toBeInTheDocument()
+  })
+
   test('must render BUTTON tag', () => {
     render(<Button data-testid='button' />)
 
