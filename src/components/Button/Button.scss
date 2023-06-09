@@ -1,0 +1,19 @@
+
+.Button {
+  cursor: pointer;
+  border: 1px solid $purple;
+  padding: $spacer * 1.25 $spacer * 2;
+  border-radius: $border-radius;
+  background: none;
+  color: $purple;
+  display: flex;
+  align-items: center;
+}
+
+.Button_disabled {
+  cursor: default;
+}
+
+.Button_rounded {
+  border-radius: 50%;
+}

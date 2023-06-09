@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button_variant component variant link 1`] = `
+<a
+  class="Button Button_variant_link"
+  data-testid="button"
+  href="/home"
+  type="button"
+  variant="link"
+>
+  children
+</a>
+`;

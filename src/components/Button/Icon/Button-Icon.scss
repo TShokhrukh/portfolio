@@ -1,0 +1,12 @@
+.Button .Button-Icon {
+  display: inline-block;
+  font-size: 24px;
+}
+
+.Button-Icon_direction_start {
+  margin-right: $spacer;
+}
+
+.Button-Icon_direction_end {
+  margin-left: $spacer;
+}
