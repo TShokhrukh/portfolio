@@ -66,6 +66,7 @@
     "@bem-react/core": "^5.1.0",
     "@bem-react/di": "^5.0.0",
     "@eo-locale/react": "^1.7.0",
+    "@popperjs/core": "^2.11.8",
     "font-awesome": "^4.7.0",
     "gardevoir": "^1.0.0",
     "mobx": "^6.9.0",
@@ -74,6 +75,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-fontawesome": "^1.7.1",
+    "react-popper": "^2.3.0",
     "tsyringe": "^4.7.0"
   }
 }
