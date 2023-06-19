@@ -11,7 +11,7 @@ import './Popper-Portal.scss'
 
 export const PopperPortal: React.FC = observer(
   function PopperPortalView () {
-    const { children, anchorEl, options } = useContext<TPopperContext>(Context)
+    const { children, anchorEl, options, id } = useContext<TPopperContext>(Context)
 
     return (
       <Popper referenceElement={anchorEl?.current!}
@@ -19,7 +19,7 @@ export const PopperPortal: React.FC = observer(
         modifiers={[{ name: 'offset', options: { offset: [0, 8] } }]}>
         {({ ref, style }) => (
           createPortal((
-            <div ref={ref} role='tooltip' className={cnPopper('Portal')} style={style}>
+            <div id={id} ref={ref} role='tooltip' className={cnPopper('Portal')} style={style}>
               {children}
             </div>
           ), container)
