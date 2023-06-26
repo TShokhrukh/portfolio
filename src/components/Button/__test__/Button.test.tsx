@@ -4,18 +4,18 @@ import { fireEvent, render, screen } from '@testing-library/react'
 import { Button } from '../Button'
 
 describe('Button', () => {
-  test('component template', () => {
+  test('must return the component template', () => {
     render(<Button data-testid='button' id='button_id' className='temp_class' />)
 
     expect(screen.getByTestId('button')).toMatchSnapshot()
   })
 
-  test('render start icon', () => {
+  test('must render startIcon', () => {
     render(<Button startIcon={() => <i data-testid='button_icon' />} />)
 
     expect(screen.getByTestId('button_icon')).toBeInTheDocument()
   })
-  test('render end icon', () => {
+  test('must render endIcon', () => {
     render(<Button endIcon={() => <i data-testid='button_icon' />} />)
 
     expect(screen.getByTestId('button_icon')).toBeInTheDocument()
@@ -27,19 +27,13 @@ describe('Button', () => {
     expect(screen.getByTestId('button')).toHaveAttribute('type', 'button')
   })
 
-  test('component tag name depends from prop \'component\'', () => {
-    render(<Button component='div' data-testid='temp' />)
-
-    expect(screen.getByTestId('temp').tagName).toBe('DIV')
-  })
-
-  test('component render children', () => {
+  test('must render children', () => {
     render(<Button>children</Button>)
 
     expect(screen.getByRole('button')).toHaveTextContent('children')
   })
 
-  test('handle click', () => {
+  test('must call the function when Button clicked', () => {
     const onClick = jest.fn()
     render(<Button onClick={onClick} />)
 

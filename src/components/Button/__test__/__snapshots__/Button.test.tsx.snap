@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button component template 1`] = `
+exports[`Button must return the component template 1`] = `
 <button
   class="Button temp_class"
   data-testid="button"

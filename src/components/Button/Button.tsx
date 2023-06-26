@@ -2,7 +2,7 @@ import React, { FC } from 'react'
 
 import { ButtonIcon } from './Icon/Button-Icon'
 import { cnButton } from './Button.const'
-import type { IButtonProps } from './__types__'
+import type { IButtonProps, TRef } from './__types__'
 
 import './Button.scss'
 
@@ -11,18 +11,24 @@ export const Button: FC<IButtonProps> = ({
   type = 'button',
   children,
   className,
-  disabled,
-  rounded,
   startIcon,
   endIcon,
+  innerRef,
   ...props
-}) => (
-  <Component {...props}
-    className={cnButton({ disabled, rounded }, [className])}
-    type={type}
-    disabled={disabled}>
-    {startIcon && <ButtonIcon icon={startIcon} direction='start' />}
-    {children}
-    {endIcon && <ButtonIcon icon={endIcon} direction='end' />}
-  </Component>
-)
+}) => {
+  let ref: TRef = { ref: innerRef }
+
+  if (typeof Component === 'function') {
+    ref = { innerRef }
+  }
+
+  return (
+    <Component {...props} {...(ref)}
+      className={cnButton({}, [className])}
+      type={type}>
+      {startIcon && <ButtonIcon icon={startIcon} direction='start' />}
+      {children}
+      {endIcon && <ButtonIcon icon={endIcon} direction='end' />}
+    </Component>
+  )
+}

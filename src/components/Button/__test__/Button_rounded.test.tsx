@@ -3,13 +3,13 @@ import React from 'react'
 import { compose } from '@bem-react/core'
 import { render, screen } from '@testing-library/react'
 import { Button as ButtonBase } from '../Button'
-import { withButtonVariantLink } from '../_variant/Button_variant_link'
+import { withButtonRounded } from '../_rounded/Button_rounded'
 
-const Button = compose(withButtonVariantLink)(ButtonBase)
+const Button = compose(withButtonRounded)(ButtonBase)
 
-describe('Button_variant', () => {
+describe('Button_rounded', () => {
   test('must return the component template', () => {
-    render(<Button data-testid='button' variant='link' href='/home'>children</Button>)
+    render(<Button data-testid='button' rounded>children</Button>)
 
     expect(screen.getByTestId('button')).toMatchSnapshot()
   })
