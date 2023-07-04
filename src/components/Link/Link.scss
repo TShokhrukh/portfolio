@@ -1,0 +1,14 @@
+
+.Link {
+  display: inline-flex;
+  text-decoration: none;
+  transition: 250ms;
+  color: $link-color;
+  justify-content: center;
+  &:hover {
+    color: $purple;
+  }
+  &:active {
+    color: $purple;
+  }
+}

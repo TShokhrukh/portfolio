@@ -1,0 +1,12 @@
+.Link .Link-Icon {
+  display: inline-block;
+  font-size: 24px;
+}
+
+.Link-Icon_direction_start {
+  margin-right: $spacer;
+}
+
+.Link-Icon_direction_end {
+  margin-left: $spacer;
+}
