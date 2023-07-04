@@ -12,7 +12,7 @@ export const Popper: React.FC<IPopperProps> = observer(
     return (
       <Context.Provider value={props}>
         <PopperTarget />
-        { props.viewModel.isOpen && <PopperPortal /> }
+        <PopperPortal />
       </Context.Provider>
     )
   }

@@ -1,4 +1,4 @@
-/* global test, jest, expect, describe, beforeEach */
+/* global test, expect, describe, beforeEach */
 import React from 'react'
 import { act, fireEvent, render, screen } from '@testing-library/react'
 import { PopperModel } from '../Popper.model'
