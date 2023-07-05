@@ -1,4 +1,4 @@
-import { IClassNameProps } from '@bem-react/core'
+import type { IClassNameProps } from '@bem-react/core'
 
 export interface IIconProps extends IClassNameProps {
   name: string
