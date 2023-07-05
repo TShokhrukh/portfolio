@@ -1,0 +1,7 @@
+.Header-Container {
+  border-radius: var(--header-container-border-radius);
+  background-color: var(--header-container-background);
+  display: flex;
+  gap: var(--header-container-gap);
+  padding: var(--header-container-padding-y) var(--header-container-padding-x);
+}

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should return the component template 1`] = `
+<header
+  class="Header"
+  data-testid="header"
+>
+  <div
+    class="Container Header-Container"
+  >
+    <div
+      class="Header-Logo"
+    >
+      <img
+        alt="..."
+        class="Header-LogoImage"
+      />
+    </div>
+    <nav
+      class="Nav Nav_direction_horizontal Header-Nav"
+    >
+      <ul
+        class="Nav-List"
+      />
+    </nav>
+    <button
+      aria-describedby="LanguagePick"
+      class="Button LanguagePick Header-LanguagePick"
+      type="button"
+    >
+      en
+    </button>
+  </div>
+</header>
+`;
