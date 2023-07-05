@@ -1,6 +1,6 @@
 /* global test, expect, describe, beforeEach */
 import React from 'react'
-import { act, fireEvent, render, screen } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import { HeaderWrapper } from './HeaderWrapper'
 import { Header } from '../Header'
 import { HeaderViewModel } from '../Header.viewModel'
