@@ -10,6 +10,8 @@ module.exports = {
     '^.+\\.tsx?$': 'ts-jest'
   },
   moduleNameMapper: {
-    '\\.(css|s[ac]ss)$': 'identity-obj-proxy'
+    '\\.(css|s[ac]ss)$': 'identity-obj-proxy',
+    '\\.svg$': 'jest-svg-transformer',
+    '~/(.*)$': '<rootDir>/src/$1'
   }
 }
