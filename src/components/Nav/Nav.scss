@@ -1,0 +1,14 @@
+
+.Nav-List {
+  margin: 0;
+  list-style: none;
+}
+
+.Nav-ItemLink {
+  font-size: 18px;
+  color: rgba($white, 0.5);
+}
+
+.Nav-Item_active .Nav-ItemLink {
+  color: rgba($purple, 0.5);
+} 

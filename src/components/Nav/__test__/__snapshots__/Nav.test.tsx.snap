@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav should return the component template 1`] = `
+<nav
+  class="Nav"
+  data-testid="nav"
+>
+  <ul
+    class="Nav-List"
+  >
+    <li
+      class="Nav-Item"
+    >
+      <a
+        class="Link Nav-ItemLink"
+        href="one"
+      >
+        link-1
+      </a>
+    </li>
+    <li
+      class="Nav-Item Nav-Item_active"
+    >
+      <a
+        class="Link Nav-ItemLink"
+        href="two"
+      >
+        link-2
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

@@ -1,0 +1,5 @@
+
+.Nav_direction_horizontal .Nav-List {
+  display: flex;
+  gap: 16px;
+}
