@@ -9,11 +9,11 @@ describe('PopperModel', () => {
     model = new PopperModel()
   })
 
-  test('should have isOpen property', () => {
+  test('must have isOpen property', () => {
     expect(model.isOpen).toBe(false)
   })
 
-  test('should update isOpen property when setIsOpen is called', () => {
+  test('must update isOpen property when setIsOpen is called', () => {
     expect(model.isOpen).toBe(false)
     model.setIsOpen(true)
     expect(model.isOpen).toBe(true)
