@@ -1,3 +1,3 @@
 export interface IButtonRounded {
-  rounded?: true
+  rounded?: boolean
 }
