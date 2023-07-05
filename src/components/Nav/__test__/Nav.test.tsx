@@ -7,7 +7,7 @@ import { Nav } from '../Nav'
 import type { ILink } from '../__types__'
 
 describe('Nav', () => {
-  test('should return the component template', () => {
+  test('must return the component template', () => {
     const links: ILink[] = [
       {
         href: 'one',

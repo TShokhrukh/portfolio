@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Nav should return the component template 1`] = `
+exports[`Nav must return the component template 1`] = `
 <nav
   class="Nav"
   data-testid="nav"

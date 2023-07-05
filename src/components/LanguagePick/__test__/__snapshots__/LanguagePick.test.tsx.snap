@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`LanguagePick should return the component template 1`] = `
+exports[`LanguagePick must return the component template 1`] = `
 <button
   aria-describedby="test_id"
   class="Button LanguagePick test_class"

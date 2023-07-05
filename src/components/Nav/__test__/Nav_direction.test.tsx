@@ -9,7 +9,7 @@ import { withNavDirectionHorizontal } from '../_direction/Nav_direction_horizont
 const Nav = compose(withNavDirectionHorizontal)(NavBase)
 
 describe('Nav', () => {
-  test('should return the component template', () => {
+  test('must return the component template', () => {
     render(
       <NavWrapper>
         <Nav links={[]} data-testid='nav' direction='horizontal' />

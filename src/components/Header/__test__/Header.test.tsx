@@ -20,7 +20,7 @@ describe('Header', () => {
     )
   })
 
-  test('should return the component template', () => {
+  test('must return the component template', () => {
     render(
       <HeaderWrapper>
         <Header viewModel={viewModel} links={[]} data-testid='header' />
@@ -30,7 +30,7 @@ describe('Header', () => {
     expect(screen.getByTestId('header')).toMatchSnapshot()
   })
 
-  test('should render links', () => {
+  test('must render links', () => {
     const links: ILink[] = [
       {
         href: 'one',

@@ -22,7 +22,7 @@ describe('LanguagePick', () => {
     viewModel = new LanguagePickViewModel(model, popperModel)
   })
 
-  test('should return the component template', () => {
+  test('must return the component template', () => {
     render(
       <LanguagePickWrapper>
         <LanguagePick viewModel={viewModel} id='test_id' className='test_class' data-testid='language_pick' />
@@ -32,7 +32,7 @@ describe('LanguagePick', () => {
     expect(screen.getByTestId('language_pick')).toMatchSnapshot()
   })
 
-  test('should render content if viewModel.isOpen property is "true"', async () => {
+  test('must render content if viewModel.isOpen property is "true"', async () => {
     render(
       <LanguagePickWrapper>
         <LanguagePick viewModel={viewModel} data-testid='language_pick' />

@@ -12,13 +12,13 @@ describe('Link', () => {
     expect(screen.getByRole('link')).toHaveAttribute('id', 'temp_id')
   })
 
-  test('should set the href attribute', () => {
+  test('must set the href attribute', () => {
     render(<Link role='link' href='/link' />)
 
     expect(screen.getByRole('link')).toHaveAttribute('href', '/link')
   })
 
-  test('should render the children', () => {
+  test('must render the children', () => {
     render(<Link role='link'>lunk text</Link>)
 
     expect(screen.getByRole('link')).toHaveTextContent('lunk text')
