@@ -1,11 +1,18 @@
 
 .Button {
+  --button-color: #{$purple};
+  --button-border-radius: #{$border-radius};
+  --button-border-color: #{$purple};
+  --button-background: none;
+  --button-padding-x: #{$spacer * 2};
+  --button-padding-y: #{$spacer * 1.25};
+
   cursor: pointer;
-  border: 1px solid $purple;
-  padding: $spacer * 1.25 $spacer * 2;
-  border-radius: $border-radius;
-  background: none;
-  color: $purple;
+  border: 1px solid var(--button-border-color);
+  padding: var(--button-padding-y) var(--button-padding-x);
+  border-radius: var(--button-border-radius);
+  background: var(--button-background);
+  color: var(--button-color);
   display: flex;
   align-items: center;
 }
