@@ -4,7 +4,7 @@ import { render, screen } from '@testing-library/react'
 import { Link } from '../Link'
 
 describe('Link', () => {
-  test('component template', () => {
+  test('must return the component template', () => {
     render(<Link role='link' id='temp_id' className='temp_class' />)
 
     expect(screen.getByRole('link').tagName).toBe('A')
