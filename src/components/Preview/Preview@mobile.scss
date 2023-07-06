@@ -1,0 +1,17 @@
+.Preview_mobile  {
+  .Preview-Background {
+    background: var(--preview-background);
+  }
+
+  .Preview-Container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+
+  .Preview-Social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,17 @@
+.Preview_desktop  {
+  background: var(--preview-background);
+
+  .Preview-Container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .Preview-Content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+

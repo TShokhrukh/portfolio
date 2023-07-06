@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Preview@base must return the component template 1`] = `
+<div
+  class="Preview test_class"
+  data-testid="preview"
+>
+  <div
+    class="Preview_mobile"
+  >
+    <div
+      class="Container Preview-Container"
+    >
+      <div
+        class="Preview-Social"
+      >
+        <a
+          class="Link Preview-SocialLink"
+          href="https://github.com/TShokhrukh"
+          target="_black"
+        >
+          <span
+            aria-hidden="true"
+            class="fa fa-github Icon"
+          />
+        </a>
+      </div>
+      <div
+        class="Preview_bg"
+      />
+      <div>
+        <div
+          class="Preview-About"
+        >
+          <span
+            class="Badge Badge_color_purple Preview-AboutBadge"
+          >
+            preview.greeting
+          </span>
+          <h1
+            class="Preview-AboutTitle"
+          >
+            <span>
+              preview.name
+            </span>
+          </h1>
+          <p
+            class="Preview-AboutDesc"
+          >
+            <span>
+              preview.skills
+            </span>
+          </p>
+        </div>
+        <div
+          class="Preview-CV"
+        >
+          <a
+            class="Link Preview-CVLink"
+            href="#adw"
+            target="_black"
+          >
+            <span>
+              preview.downloadCv
+            </span>
+            <span
+              aria-hidden="true"
+              class="fa fa-download Icon Link-Icon Link-Icon_direction_end"
+            />
+          </a>
+          <button
+            class="Button"
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+              class="fa fa-telegram Icon Button-Icon Button-Icon_direction_start"
+            />
+            <span>
+              preview.talk
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="Preview_desktop Preview_bg"
+  >
+    <div
+      class="Container Preview-Container"
+    >
+      <div
+        class="Preview-Content"
+      >
+        <div>
+          <div
+            class="Preview-About"
+          >
+            <span
+              class="Badge Badge_color_purple Preview-AboutBadge"
+            >
+              preview.greeting
+            </span>
+            <h1
+              class="Preview-AboutTitle"
+            >
+              <span>
+                preview.name
+              </span>
+            </h1>
+            <p
+              class="Preview-AboutDesc"
+            >
+              <span>
+                preview.skills
+              </span>
+            </p>
+          </div>
+          <div
+            class="Preview-Social"
+          >
+            <a
+              class="Link Preview-SocialLink"
+              href="https://github.com/TShokhrukh"
+              target="_black"
+            >
+              <span
+                aria-hidden="true"
+                class="fa fa-github Icon"
+              />
+            </a>
+          </div>
+        </div>
+        <div
+          class="Preview-CV"
+        >
+          <a
+            class="Link Preview-CVLink"
+            href="#adw"
+            target="_black"
+          >
+            <span>
+              preview.downloadCv
+            </span>
+            <span
+              aria-hidden="true"
+              class="fa fa-download Icon Link-Icon Link-Icon_direction_end"
+            />
+          </a>
+          <button
+            class="Button"
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+              class="fa fa-telegram Icon Button-Icon Button-Icon_direction_start"
+            />
+            <span>
+              preview.talk
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Preview@desktop must return the component template 1`] = `
+<div
+  class="Preview Preview_desktop test_class"
+  data-testid="preview"
+>
+  <div
+    class="Container Preview-Container"
+  >
+    <div
+      class="Preview-Content"
+    >
+      <div>
+        <div
+          class="Preview-About"
+        >
+          <span
+            class="Badge Badge_color_purple Preview-AboutBadge"
+          >
+            preview.greeting
+          </span>
+          <h1
+            class="Preview-AboutTitle"
+          >
+            <span>
+              preview.name
+            </span>
+          </h1>
+          <p
+            class="Preview-AboutDesc"
+          >
+            <span>
+              preview.skills
+            </span>
+          </p>
+        </div>
+        <div
+          class="Preview-Social"
+        >
+          <a
+            class="Link Preview-SocialLink"
+            href="https://github.com/TShokhrukh"
+            target="_black"
+          >
+            <span
+              aria-hidden="true"
+              class="fa fa-github Icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="Preview-CV"
+      >
+        <a
+          class="Link Preview-CVLink"
+          href="#adw"
+          target="_black"
+        >
+          <span>
+            preview.downloadCv
+          </span>
+          <span
+            aria-hidden="true"
+            class="fa fa-download Icon Link-Icon Link-Icon_direction_end"
+          />
+        </a>
+        <button
+          class="Button"
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+            class="fa fa-telegram Icon Button-Icon Button-Icon_direction_start"
+          />
+          <span>
+            preview.talk
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Preview@mobile must return the component template 1`] = `
+<div
+  class="Preview Preview_mobile test_class"
+  data-testid="preview"
+>
+  <div
+    class="Container Preview-Container"
+  >
+    <div
+      class="Preview-Social"
+    >
+      <a
+        class="Link Preview-SocialLink"
+        href="https://github.com/TShokhrukh"
+        target="_black"
+      >
+        <span
+          aria-hidden="true"
+          class="fa fa-github Icon"
+        />
+      </a>
+    </div>
+    <div
+      class="Preview-Background"
+    />
+    <div>
+      <div
+        class="Preview-About"
+      >
+        <span
+          class="Badge Badge_color_purple Preview-AboutBadge"
+        >
+          preview.greeting
+        </span>
+        <h1
+          class="Preview-AboutTitle"
+        >
+          <span>
+            preview.name
+          </span>
+        </h1>
+        <p
+          class="Preview-AboutDesc"
+        >
+          <span>
+            preview.skills
+          </span>
+        </p>
+      </div>
+      <div
+        class="Preview-CV"
+      >
+        <a
+          class="Link Preview-CVLink"
+          href="#adw"
+          target="_black"
+        >
+          <span>
+            preview.downloadCv
+          </span>
+          <span
+            aria-hidden="true"
+            class="fa fa-download Icon Link-Icon Link-Icon_direction_end"
+          />
+        </a>
+        <button
+          class="Button"
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+            class="fa fa-telegram Icon Button-Icon Button-Icon_direction_start"
+          />
+          <span>
+            preview.talk
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
