@@ -12,6 +12,7 @@ export interface ILinkProps extends IClassNameProps {
   endIcon?: ComponentType<IIconProps>,
   id?: string,
   role?: string,
+  rel?: string,
   target?: '_black'|'_parent'|'_self'|'_top'
 }
 
