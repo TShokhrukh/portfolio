@@ -17,6 +17,7 @@ exports[`Preview@base must return the component template 1`] = `
         <a
           class="Link Preview-SocialLink"
           href="https://github.com/TShokhrukh"
+          rel="noopener noreferrer"
           target="_black"
         >
           <span
@@ -123,6 +124,7 @@ exports[`Preview@base must return the component template 1`] = `
             <a
               class="Link Preview-SocialLink"
               href="https://github.com/TShokhrukh"
+              rel="noopener noreferrer"
               target="_black"
             >
               <span
@@ -208,6 +210,7 @@ exports[`Preview@desktop must return the component template 1`] = `
           <a
             class="Link Preview-SocialLink"
             href="https://github.com/TShokhrukh"
+            rel="noopener noreferrer"
             target="_black"
           >
             <span
@@ -265,6 +268,7 @@ exports[`Preview@mobile must return the component template 1`] = `
       <a
         class="Link Preview-SocialLink"
         href="https://github.com/TShokhrukh"
+        rel="noopener noreferrer"
         target="_black"
       >
         <span
