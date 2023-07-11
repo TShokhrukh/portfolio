@@ -1,0 +1,8 @@
+.ExperienceCard {
+  border: 1px solid rgba($purple, 0.5);
+  border-radius: $border-radius * 2;
+  padding: $spacer * 5.25 $spacer * 2.5 $spacer * 3.75 $spacer * 2.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
