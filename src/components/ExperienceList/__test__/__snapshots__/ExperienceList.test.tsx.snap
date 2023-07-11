@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExperienceList must return the component template 1`] = `
+<div
+  class="ExperienceList"
+  data-testid="experience_list"
+>
+  <div
+    class="ExperienceCard ExperienceList-Item"
+  >
+    <span
+      aria-hidden="true"
+      class="fa fa-home Icon ExperienceCard-Icon"
+    />
+    <p
+      class="ExperienceCard-Body"
+    >
+      home_body
+    </p>
+    <h3
+      class="ExperienceCard-Skill"
+    >
+      home_skill
+    </h3>
+  </div>
+  <div
+    class="ExperienceCard ExperienceList-Item"
+  >
+    <span
+      aria-hidden="true"
+      class="fa fa-user Icon ExperienceCard-Icon"
+    />
+    <p
+      class="ExperienceCard-Body"
+    >
+      user_body
+    </p>
+    <h3
+      class="ExperienceCard-Skill"
+    >
+      user_skill
+    </h3>
+  </div>
+</div>
+`;
