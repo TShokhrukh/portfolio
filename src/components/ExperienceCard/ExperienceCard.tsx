@@ -1,4 +1,5 @@
 import React, { FC } from 'react'
+import { Card } from '~/components/Card/Card'
 import { ExperienceCardIcon } from './Icon'
 import { ExperienceCardBody } from './Body'
 import { ExperienceCardSkill } from './Skill'
@@ -10,18 +11,18 @@ import type { IExperienceCardProps } from './__types__'
 import './ExperienceCard.scss'
 
 export const ExperienceCard: FC<IExperienceCardProps> = ({
-  component: Component = 'div',
+  component,
   className,
   experience,
   ...props
 }) => {
   return (
     <Context.Provider value={experience}>
-      <Component {...props} className={cnExperienceCard({}, [className])}>
+      <Card component={component} {...props} className={cnExperienceCard({}, [className])}>
         <ExperienceCardIcon />
         <ExperienceCardBody />
         <ExperienceCardSkill />
-      </Component>
+      </Card>
     </Context.Provider>
   )
 }
