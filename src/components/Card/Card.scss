@@ -1,0 +1,15 @@
+.Card {
+  --card-border-color: #{rgba($purple, 0.5)};
+  --card-border-radius: #{$border-radius * 2};
+  --card-padding-x: #{$border-radius * 2.5};
+  --card-padding-y: #{$border-radius * 3.75};
+  border-radius: var(--card-border-radius);
+  border: 1px solid var(--card-border-color);
+  padding: var(--card-padding-y) var(--card-padding-x);
+  transition: 0.2s;
+
+  &:hover {
+    --card-border-color: transparent;
+    background-color: rgba($purple, 0.1);
+  }
+}
