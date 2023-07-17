@@ -42,7 +42,7 @@ const configuration = {
         ]
       },
       {
-        test: /\.(svg|png)$/,
+        test: /\.(svg|png|gif|jpg|jpeg)$/,
         type: 'asset/resource'
       }
     ]
