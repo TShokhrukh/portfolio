@@ -1,0 +1,14 @@
+.AboutMe {
+  --about-me-template-columns: 1fr;
+  --about-gap: #{$spacer * 2};
+
+  display: grid;
+  grid-template-columns: var(--about-me-template-columns);
+  gap: var(--about-gap);
+}
+
+@include media-breakpoint-up(xl) {
+  .AboutMe {
+    --about-me-template-columns: 40% 1fr;
+  }
+}
