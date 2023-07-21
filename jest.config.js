@@ -3,7 +3,7 @@ module.exports = {
   preset: 'ts-jest',
   roots: ['<rootDir>/src'],
   testMatch: ['<rootDir>/src/**/*.test.{ts,tsx,js,jsx}'],
-  setupFilesAfterEnv: ['<rootDir>/src/jest-setup.ts'],
+  setupFilesAfterEnv: ['<rootDir>/jest/jest-setup.ts'],
   testEnvironment: 'jsdom',
   testEnvironmentOptions: { resources: 'usable' },
   transform: {
@@ -11,7 +11,7 @@ module.exports = {
   },
   moduleNameMapper: {
     '\\.(css|s[ac]ss)$': 'identity-obj-proxy',
-    '\\.svg$': 'jest-svg-transformer',
+    '\\.(svg|png|jpg|jpeg)$': 'jest-svg-transformer',
     '~/(.*)$': '<rootDir>/src/$1'
   }
 }
