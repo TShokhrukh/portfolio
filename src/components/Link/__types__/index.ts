@@ -13,7 +13,7 @@ export interface ILinkProps extends IClassNameProps {
   id?: string,
   role?: string,
   rel?: string,
-  target?: '_black'|'_parent'|'_self'|'_top'
+  target?: '_blank'|'_parent'|'_self'|'_top'
 }
 
 export interface ILinkIconProps {

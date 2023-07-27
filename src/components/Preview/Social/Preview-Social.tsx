@@ -7,7 +7,7 @@ export const PreviewSocial = () => {
   return (
     <div className={cnPreview('Social')}>
       { social.map((s, i) => (
-        <SocialLink key={i} href={s.href} target='_black' rel='noopener noreferrer'>
+        <SocialLink key={i} href={s.href} target='_blank' rel='noopener noreferrer'>
           <Icon name={s.icon} />
         </SocialLink>
       )) }

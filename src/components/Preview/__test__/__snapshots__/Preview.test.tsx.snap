@@ -18,7 +18,7 @@ exports[`Preview@base must return the component template 1`] = `
           class="Link Preview-SocialLink"
           href="https://github.com/TShokhrukh"
           rel="noopener noreferrer"
-          target="_black"
+          target="_blank"
         >
           <span
             aria-hidden="true"
@@ -56,19 +56,6 @@ exports[`Preview@base must return the component template 1`] = `
         <div
           class="Preview-CV"
         >
-          <a
-            class="Link Preview-CVLink"
-            href="#adw"
-            target="_black"
-          >
-            <span>
-              preview.downloadCv
-            </span>
-            <span
-              aria-hidden="true"
-              class="fa fa-download Icon Link-Icon Link-Icon_direction_end"
-            />
-          </a>
           <button
             class="Button"
             type="button"
@@ -125,7 +112,7 @@ exports[`Preview@base must return the component template 1`] = `
               class="Link Preview-SocialLink"
               href="https://github.com/TShokhrukh"
               rel="noopener noreferrer"
-              target="_black"
+              target="_blank"
             >
               <span
                 aria-hidden="true"
@@ -137,19 +124,6 @@ exports[`Preview@base must return the component template 1`] = `
         <div
           class="Preview-CV"
         >
-          <a
-            class="Link Preview-CVLink"
-            href="#adw"
-            target="_black"
-          >
-            <span>
-              preview.downloadCv
-            </span>
-            <span
-              aria-hidden="true"
-              class="fa fa-download Icon Link-Icon Link-Icon_direction_end"
-            />
-          </a>
           <button
             class="Button"
             type="button"
@@ -211,7 +185,7 @@ exports[`Preview@desktop must return the component template 1`] = `
             class="Link Preview-SocialLink"
             href="https://github.com/TShokhrukh"
             rel="noopener noreferrer"
-            target="_black"
+            target="_blank"
           >
             <span
               aria-hidden="true"
@@ -223,19 +197,6 @@ exports[`Preview@desktop must return the component template 1`] = `
       <div
         class="Preview-CV"
       >
-        <a
-          class="Link Preview-CVLink"
-          href="#adw"
-          target="_black"
-        >
-          <span>
-            preview.downloadCv
-          </span>
-          <span
-            aria-hidden="true"
-            class="fa fa-download Icon Link-Icon Link-Icon_direction_end"
-          />
-        </a>
         <button
           class="Button"
           type="button"
@@ -269,7 +230,7 @@ exports[`Preview@mobile must return the component template 1`] = `
         class="Link Preview-SocialLink"
         href="https://github.com/TShokhrukh"
         rel="noopener noreferrer"
-        target="_black"
+        target="_blank"
       >
         <span
           aria-hidden="true"
@@ -307,19 +268,6 @@ exports[`Preview@mobile must return the component template 1`] = `
       <div
         class="Preview-CV"
       >
-        <a
-          class="Link Preview-CVLink"
-          href="#adw"
-          target="_black"
-        >
-          <span>
-            preview.downloadCv
-          </span>
-          <span
-            aria-hidden="true"
-            class="fa fa-download Icon Link-Icon Link-Icon_direction_end"
-          />
-        </a>
         <button
           class="Button"
           type="button"
