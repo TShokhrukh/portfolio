@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectCard must return the component template 1`] = `
+<a
+  class="Link Card ProjectCard"
+  data-testid="project_card"
+  href="http://localhost:9000/project_card"
+  rel="noopener noreferrer"
+  target="_blank"
+>
+  <p
+    class="Typography Typography_color_white"
+  >
+    project name
+  </p>
+  <p
+    class="Typography ProjectCard-Desc"
+  >
+    project_card
+  </p>
+  <div
+    class="ProjectCard-Stacks"
+  >
+    <span
+      class="Badge Badge_color_purple"
+    >
+      TypeScript
+    </span>
+    <span
+      class="Badge Badge_color_purple"
+    >
+      JavaScript
+    </span>
+  </div>
+  <img
+    alt="project name"
+    class="Img ProjectCard-Image"
+  />
+</a>
+`;
