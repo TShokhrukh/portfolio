@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectsList must return the component template 1`] = `
+<div
+  class="List ProjectsList"
+  data-testid="projects_list"
+>
+  <a
+    class="Link Card ProjectCard"
+    href="http://localhost:9000/project_card/1"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <p
+      class="Typography Typography_color_white"
+    >
+      project name 1
+    </p>
+    <p
+      class="Typography ProjectCard-Desc"
+    >
+      project_card 1
+    </p>
+    <div
+      class="ProjectCard-Stacks"
+    >
+      <span
+        class="Badge Badge_color_purple"
+      >
+        JavaScript
+      </span>
+    </div>
+    <img
+      alt="project name 1"
+      class="Img ProjectCard-Image"
+    />
+  </a>
+  <a
+    class="Link Card ProjectCard"
+    href="http://localhost:9000/project_card/2"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <p
+      class="Typography Typography_color_white"
+    >
+      project name 2
+    </p>
+    <p
+      class="Typography ProjectCard-Desc"
+    >
+      project_card 2
+    </p>
+    <div
+      class="ProjectCard-Stacks"
+    >
+      <span
+        class="Badge Badge_color_purple"
+      >
+        TypeScript
+      </span>
+      <span
+        class="Badge Badge_color_purple"
+      >
+        JavaScript
+      </span>
+    </div>
+    <img
+      alt="project name 2"
+      class="Img ProjectCard-Image"
+    />
+  </a>
+</div>
+`;
