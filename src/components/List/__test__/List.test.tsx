@@ -1,7 +1,7 @@
 /* global test, expect, describe, jest */
 import React from 'react'
 import { render, screen } from '@testing-library/react'
-import { LanguageWrapper } from '~/utils/test/LanguageWrapper'
+import { LanguageWrapper } from '~/utils/jest/LanguageWrapper'
 import { List } from '../List'
 
 describe('List', () => {
