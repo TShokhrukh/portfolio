@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List must return the component template 1`] = `
+<div
+  class="List"
+  data-testid="list"
+>
+  <div>
+    item-
+    1
+  </div>
+  <div>
+    item-
+    2
+  </div>
+</div>
+`;
