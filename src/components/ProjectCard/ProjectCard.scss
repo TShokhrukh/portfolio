@@ -2,6 +2,9 @@
   cursor: pointer;
   display: grid;
   grid-template-rows: auto 100px auto 200px;
+  &:hover {
+    color: inherit;
+  }
 }
 
 .ProjectCard-Image {
