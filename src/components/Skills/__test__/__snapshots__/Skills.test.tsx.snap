@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skills must return the component template 1`] = `
+<div
+  class="Skills test_class"
+  data-testid="skills"
+>
+  <div>
+    <span
+      class="Badge Badge_color_purple"
+    >
+      skills.badge
+    </span>
+  </div>
+  <h2
+    class="Typography Typography_color_white Typography_variant_h2 Skills-Title"
+  >
+    skills.title
+  </h2>
+  <div
+    class="List Skills-Content"
+  >
+    <img
+      alt="..."
+      class="Img Skills-Item"
+    />
+    <img
+      alt="..."
+      class="Img Skills-Item"
+    />
+  </div>
+</div>
+`;

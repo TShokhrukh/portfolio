@@ -1,0 +1,9 @@
+.Skills-Content {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@include media-breakpoint-up(xl) {
+  .Skills-Content {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
