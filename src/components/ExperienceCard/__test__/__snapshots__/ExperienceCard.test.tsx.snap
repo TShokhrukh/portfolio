@@ -2,7 +2,7 @@
 
 exports[`ExperienceCard must return the component template 1`] = `
 <div
-  class="ExperienceCard"
+  class="Card ExperienceCard"
   data-testid="experience_card"
 >
   <span

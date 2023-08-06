@@ -1,8 +1,8 @@
 /* global test, expect, describe */
 import React from 'react'
 import { render, screen } from '@testing-library/react'
+import { LanguageWrapper } from '~/utils/jest/LanguageWrapper'
 import { ExperienceList } from '../ExperienceList'
-import { ExperienceListWrapper } from './ExperienceListWrapper'
 
 describe('ExperienceList', () => {
   test('must return the component template', () => {
@@ -29,9 +29,9 @@ describe('ExperienceList', () => {
       }
     ]
     render(
-      <ExperienceListWrapper>
+      <LanguageWrapper>
         <ExperienceList experience={experience} data-testid='experience_list' />
-      </ExperienceListWrapper>
+      </LanguageWrapper>
     )
 
     expect(screen.getByTestId('experience_list')).toMatchSnapshot()

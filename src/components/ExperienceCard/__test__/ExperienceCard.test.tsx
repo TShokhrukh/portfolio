@@ -1,8 +1,8 @@
 /* global test, expect, describe */
 import React from 'react'
 import { render, screen } from '@testing-library/react'
+import { LanguageWrapper } from '~/utils/jest/LanguageWrapper'
 import { ExperienceCard } from '../ExperienceCard'
-import { ExperienceCardWrapper } from './ExperienceCardWrapper'
 
 describe('ExperienceCard', () => {
   test('must return the component template', () => {
@@ -17,9 +17,9 @@ describe('ExperienceCard', () => {
     }
 
     render(
-      <ExperienceCardWrapper>
+      <LanguageWrapper>
         <ExperienceCard experience={experience} data-testid='experience_card' />
-      </ExperienceCardWrapper>
+      </LanguageWrapper>
     )
 
     expect(screen.getByTestId('experience_card')).toMatchSnapshot()

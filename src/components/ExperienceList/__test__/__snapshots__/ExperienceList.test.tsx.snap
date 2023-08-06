@@ -6,7 +6,7 @@ exports[`ExperienceList must return the component template 1`] = `
   data-testid="experience_list"
 >
   <div
-    class="ExperienceCard ExperienceList-Item"
+    class="Card ExperienceCard ExperienceList-Item"
   >
     <span
       aria-hidden="true"
@@ -24,7 +24,7 @@ exports[`ExperienceList must return the component template 1`] = `
     </h3>
   </div>
   <div
-    class="ExperienceCard ExperienceList-Item"
+    class="Card ExperienceCard ExperienceList-Item"
   >
     <span
       aria-hidden="true"
