@@ -8,5 +8,5 @@ import './Skills-Content.scss'
 export const SkillsContent: FC = () => {
   const { skills } = useContext<ISkillsContext>(Context)
 
-  return <List items={skills} itemComponent={(i) => <SkillsItem src={i.img} />} className={cnSkills('Content', [])} />
+  return <List items={skills} itemComponent={(i) => <SkillsItem src={i.img} title={i.title} />} className={cnSkills('Content', [])} />
 }

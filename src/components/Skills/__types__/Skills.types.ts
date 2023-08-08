@@ -2,6 +2,7 @@ import type { IClassNameProps } from '@bem-react/core'
 
 export interface ISkill {
   id: string,
+  title?: string,
   img: string
 }
 
