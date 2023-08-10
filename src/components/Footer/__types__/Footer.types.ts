@@ -1,5 +1,5 @@
 import type { IClassNameProps } from '@bem-react/core'
-import { IComponentProp } from '~/src/types/react'
+import { IComponentProp } from '~/types/react'
 
 export interface IFooterProps extends IClassNameProps, IComponentProp {
 

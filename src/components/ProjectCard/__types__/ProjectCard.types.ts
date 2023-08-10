@@ -1,6 +1,6 @@
 import type { IClassNameProps } from '@bem-react/core'
-import type { IComponentProp } from '~/src/types/react'
-import type { TLocale } from '~/src/types'
+import type { IComponentProp } from '~/types/react'
+import type { TLocale } from '~/types'
 
 export interface IProject {
   id: string,
