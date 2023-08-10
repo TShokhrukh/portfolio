@@ -1,5 +1,6 @@
 export const environment = {
   contacts: {
-    git: 'https://github.com/TShokhrukh'
+    git: process.env.CONTACT_GITHUB,
+    telegram: process.env.CONTACT_TELEGRAM
   }
 }

@@ -3,7 +3,9 @@ declare global {
     interface ProcessEnv {
       DEFAULT_LANGUAGE: string,
       SUPPORTED_LANGUAGE: string,
-      NODE_ENV: 'development'|'production'
+      NODE_ENV: 'development'|'production',
+      CONTACT_GITHUB: string,
+      CONTACT_TELEGRAM: string,
     }
   }
 }
