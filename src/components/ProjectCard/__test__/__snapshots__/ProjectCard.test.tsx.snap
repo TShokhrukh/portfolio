@@ -32,9 +32,13 @@ exports[`ProjectCard must return the component template 1`] = `
       JavaScript
     </span>
   </div>
-  <img
-    alt="project name"
-    class="Img ProjectCard-Image"
-  />
+  <div
+    class="ProjectCard-Image"
+  >
+    <img
+      alt="project name"
+      class="Img Img_fill_horizontal"
+    />
+  </div>
 </a>
 `;
