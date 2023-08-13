@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Img_fill_horizontal must return the component template 1`] = `
+<img
+  alt="..."
+  class="Img Img_fill_horizontal"
+  data-testid="image"
+/>
+`;
+
+exports[`Img_fill_vertical must return the component template 1`] = `
+<img
+  alt="..."
+  class="Img Img_fill_vertical"
+  data-testid="image"
+/>
+`;
