@@ -5,7 +5,6 @@ exports[`Button_variant must return the component template 1`] = `
   class="Button Button_variant_link"
   data-testid="button"
   href="/home"
-  type="button"
 >
   children
 </a>
