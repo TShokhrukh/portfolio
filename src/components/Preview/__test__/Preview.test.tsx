@@ -8,7 +8,7 @@ describe('Preview', () => {
   test('must return the component template', () => {
     render(
       <LanguageWrapper>
-        <Preview className='test_class' data-testid='preview' />
+        <Preview className='test_class' data-testid='preview' telegram='https://telegram.org/' />
       </LanguageWrapper>
     )
 

@@ -3,7 +3,7 @@ import type { IClassNameProps } from '@bem-react/core'
 import type { IComponentProp } from '~/types/react'
 
 export interface IPreviewProps extends IClassNameProps, IComponentProp {
-
+  telegram: string
 }
 
 export interface IPreviewIconProps extends IClassNameProps {
@@ -16,4 +16,8 @@ export interface IPreviewContentProps extends IClassNameProps {
 
 export interface IPreviewInnerProps {
   children?: ReactNode,
+}
+
+export interface IPreviewContext {
+  telegram: string
 }

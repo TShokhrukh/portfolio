@@ -55,8 +55,11 @@ exports[`Preview must return the component template 1`] = `
         <div
           class="Preview-CV"
         >
-          <button
-            class="Button"
+          <a
+            class="Link Button"
+            href="https://telegram.org/"
+            rel="noopener noreferrer"
+            target="_blank"
             type="button"
           >
             <span
@@ -66,7 +69,7 @@ exports[`Preview must return the component template 1`] = `
             <span>
               preview.talk
             </span>
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -122,8 +125,11 @@ exports[`Preview must return the component template 1`] = `
         <div
           class="Preview-CV"
         >
-          <button
-            class="Button"
+          <a
+            class="Link Button"
+            href="https://telegram.org/"
+            rel="noopener noreferrer"
+            target="_blank"
             type="button"
           >
             <span
@@ -133,7 +139,7 @@ exports[`Preview must return the component template 1`] = `
             <span>
               preview.talk
             </span>
-          </button>
+          </a>
         </div>
       </div>
     </div>
