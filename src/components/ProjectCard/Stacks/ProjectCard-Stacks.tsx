@@ -8,7 +8,7 @@ export const ProjectCardStacks: FC = () => {
   const { project } = useContext<IProjectCardContext>(Context)
   return (
     <div className={cnProjectCard('Stacks', [])}>
-      {project.stack.map((s, i) => <Badge key={i} color='purple'>{s}</Badge>)}
+      {project.stack.map((s, i) => <div key={i}><Badge color='purple'>{s}</Badge></div>)}
     </div>
   )
 }

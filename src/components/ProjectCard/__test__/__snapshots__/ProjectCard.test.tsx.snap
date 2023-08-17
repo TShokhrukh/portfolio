@@ -21,16 +21,20 @@ exports[`ProjectCard must return the component template 1`] = `
   <div
     class="ProjectCard-Stacks"
   >
-    <span
-      class="Badge Badge_color_purple"
-    >
-      TypeScript
-    </span>
-    <span
-      class="Badge Badge_color_purple"
-    >
-      JavaScript
-    </span>
+    <div>
+      <span
+        class="Badge Badge_color_purple"
+      >
+        TypeScript
+      </span>
+    </div>
+    <div>
+      <span
+        class="Badge Badge_color_purple"
+      >
+        JavaScript
+      </span>
+    </div>
   </div>
   <div
     class="ProjectCard-Image"
