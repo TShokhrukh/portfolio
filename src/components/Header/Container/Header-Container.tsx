@@ -1,6 +1,6 @@
 import { withBemMod } from '@bem-react/core'
+import { Container } from '~/components/Container/build'
 import { cnHeader } from '../Header.const'
-import { Container } from '../../Container/Container'
 
 import './Header-Container.scss'
 

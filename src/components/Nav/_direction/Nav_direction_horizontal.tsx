@@ -3,7 +3,7 @@ import { withBemMod } from '@bem-react/core'
 import { cnNav } from '../Nav.const'
 import type { INavDirectionProps, INavProps } from '../__types__'
 
-import './Nav_direction_horizontal.css'
+import './Nav_direction_horizontal.scss'
 
 export const withNavDirectionHorizontal = withBemMod<INavDirectionProps, INavProps>(
   cnNav(),

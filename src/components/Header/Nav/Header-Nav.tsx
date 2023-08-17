@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav } from '../../Nav/build/base'
+import { Nav } from '~/components/Nav/build'
 import { HeaderContext } from '../libs/context'
 import { cnHeader } from '../Header.const'
 

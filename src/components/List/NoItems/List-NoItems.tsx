@@ -1,6 +1,6 @@
 import React, { FC, useContext } from 'react'
 import { Text } from '@eo-locale/react'
-import { Typography } from '~/components/Typography/build/base'
+import { Typography } from '~/components/Typography/build'
 import { cnList, Context } from '../List.const'
 import type { IListContext } from '../__types__'
 import './List-NoItems.scss'

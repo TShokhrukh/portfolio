@@ -3,7 +3,7 @@ import { NavContext } from './context'
 import type { INavContext } from '../__types__'
 
 export const useNavContext = (): INavContext => {
-  const value = useContext(NavContext)
+  const value = useContext<INavContext>(NavContext)
 
   if (!value) {
     throw new Error('NavContext has not been set')

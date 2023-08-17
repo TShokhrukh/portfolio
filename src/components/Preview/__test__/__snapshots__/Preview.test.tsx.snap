@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Preview@base must return the component template 1`] = `
+exports[`Preview must return the component template 1`] = `
 <div
   class="Preview test_class"
   data-testid="preview"
 >
   <div
-    class="Preview_mobile"
+    class="Preview-Inner Preview-Inner_mobile"
   >
     <div
       class="Container Preview-Container"
@@ -16,7 +16,6 @@ exports[`Preview@base must return the component template 1`] = `
       >
         <a
           class="Link Preview-SocialLink"
-          href="https://github.com/TShokhrukh"
           rel="noopener noreferrer"
           target="_blank"
         >
@@ -27,7 +26,7 @@ exports[`Preview@base must return the component template 1`] = `
         </a>
       </div>
       <div
-        class="Preview_bg"
+        class="Preview-Background"
       />
       <div>
         <div
@@ -73,7 +72,7 @@ exports[`Preview@base must return the component template 1`] = `
     </div>
   </div>
   <div
-    class="Preview_desktop Preview_bg"
+    class="Preview-Inner Preview-Inner_desktop"
   >
     <div
       class="Container Preview-Container"
@@ -110,7 +109,6 @@ exports[`Preview@base must return the component template 1`] = `
           >
             <a
               class="Link Preview-SocialLink"
-              href="https://github.com/TShokhrukh"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -137,149 +135,6 @@ exports[`Preview@base must return the component template 1`] = `
             </span>
           </button>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Preview@desktop must return the component template 1`] = `
-<div
-  class="Preview Preview_desktop test_class"
-  data-testid="preview"
->
-  <div
-    class="Container Preview-Container"
-  >
-    <div
-      class="Preview-Content"
-    >
-      <div>
-        <div
-          class="Preview-About"
-        >
-          <span
-            class="Badge Badge_color_purple Preview-AboutBadge"
-          >
-            preview.greeting
-          </span>
-          <h1
-            class="Preview-AboutTitle"
-          >
-            <span>
-              preview.name
-            </span>
-          </h1>
-          <p
-            class="Preview-AboutDesc"
-          >
-            <span>
-              preview.skills
-            </span>
-          </p>
-        </div>
-        <div
-          class="Preview-Social"
-        >
-          <a
-            class="Link Preview-SocialLink"
-            href="https://github.com/TShokhrukh"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <span
-              aria-hidden="true"
-              class="fa fa-github Icon"
-            />
-          </a>
-        </div>
-      </div>
-      <div
-        class="Preview-CV"
-      >
-        <button
-          class="Button"
-          type="button"
-        >
-          <span
-            aria-hidden="true"
-            class="fa fa-telegram Icon Button-Icon Button-Icon_direction_start"
-          />
-          <span>
-            preview.talk
-          </span>
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Preview@mobile must return the component template 1`] = `
-<div
-  class="Preview Preview_mobile test_class"
-  data-testid="preview"
->
-  <div
-    class="Container Preview-Container"
-  >
-    <div
-      class="Preview-Social"
-    >
-      <a
-        class="Link Preview-SocialLink"
-        href="https://github.com/TShokhrukh"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        <span
-          aria-hidden="true"
-          class="fa fa-github Icon"
-        />
-      </a>
-    </div>
-    <div
-      class="Preview-Background"
-    />
-    <div>
-      <div
-        class="Preview-About"
-      >
-        <span
-          class="Badge Badge_color_purple Preview-AboutBadge"
-        >
-          preview.greeting
-        </span>
-        <h1
-          class="Preview-AboutTitle"
-        >
-          <span>
-            preview.name
-          </span>
-        </h1>
-        <p
-          class="Preview-AboutDesc"
-        >
-          <span>
-            preview.skills
-          </span>
-        </p>
-      </div>
-      <div
-        class="Preview-CV"
-      >
-        <button
-          class="Button"
-          type="button"
-        >
-          <span
-            aria-hidden="true"
-            class="fa fa-telegram Icon Button-Icon Button-Icon_direction_start"
-          />
-          <span>
-            preview.talk
-          </span>
-        </button>
       </div>
     </div>
   </div>

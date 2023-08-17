@@ -1,13 +1,9 @@
 import React from 'react'
 import { Text } from '@eo-locale/react'
-import { compose } from '@bem-react/core'
-import { Badge as BadgeBase } from '~/components/Badge/Badge'
-import { withBadgeColorPurple } from '~/components/Badge/_color/Badge_color_purple'
+import { Badge } from '~/components/Badge/build'
 
 import { cnPreview } from '../Preview.const'
 import './Preview-About.scss'
-
-const Badge = compose(withBadgeColorPurple)(BadgeBase)
 
 export const PreviewAbout = () => {
   return (

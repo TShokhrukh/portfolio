@@ -1,7 +1,7 @@
 import React from 'react'
 import { Text } from '@eo-locale/react'
-import { Icon } from '~/components/Icon/Icon'
-import { Button } from '~/components/Button/Button'
+import { Icon } from '~/components/Icon/build'
+import { Button } from '~/components/Button/build'
 
 import { cnPreview } from '../Preview.const'
 import './Preview-CV.scss'

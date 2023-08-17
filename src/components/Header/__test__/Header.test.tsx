@@ -1,14 +1,27 @@
 /* global test, expect, describe, beforeEach */
 import React from 'react'
+import type { Locale } from '@eo-locale/core'
 import { render, screen } from '@testing-library/react'
-import { HeaderWrapper } from './HeaderWrapper'
+import { LanguagePickModel } from '~/components/LanguagePick/LanguagePick.model'
+import { PopperModel } from '~/components/Popper/Popper.model'
+import { LanguageWrapper } from '~/utils/jest/LanguageWrapper'
 import { Header } from '../Header'
 import { HeaderViewModel } from '../Header.viewModel'
-import { LanguagePickModel } from '../../LanguagePick/LanguagePick.model'
-import { PopperModel } from '../../Popper/Popper.model'
-
+import type { ILink } from '~/components/Nav/__types__'
 import type { IHeaderViewModel } from '../__types__'
-import type { ILink } from '../../Nav/__types__'
+
+const locales: Locale[] = [
+  {
+    language: 'en',
+    messages: {
+      language: {
+        en: 'en',
+        ru: 'ru',
+        uz: 'uz'
+      }
+    }
+  }
+]
 
 describe('Header', () => {
   let viewModel: IHeaderViewModel
@@ -22,9 +35,9 @@ describe('Header', () => {
 
   test('must return the component template', () => {
     render(
-      <HeaderWrapper>
+      <LanguageWrapper locales={locales}>
         <Header viewModel={viewModel} links={[]} data-testid='header' />
-      </HeaderWrapper>
+      </LanguageWrapper>
     )
 
     expect(screen.getByTestId('header')).toMatchSnapshot()
@@ -42,9 +55,9 @@ describe('Header', () => {
       }
     ]
     render(
-      <HeaderWrapper>
+      <LanguageWrapper locales={locales}>
         <Header viewModel={viewModel} links={links} data-testid='header' />
-      </HeaderWrapper>
+      </LanguageWrapper>
     )
 
     expect(screen.queryByText('link-1')).toBeInTheDocument()

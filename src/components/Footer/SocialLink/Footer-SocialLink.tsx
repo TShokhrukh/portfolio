@@ -1,5 +1,5 @@
 import { withBemMod } from '@bem-react/core'
-import { Link } from '~/components/Link/Link'
+import { Link } from '~/components/Link/build'
 import { cnFooter } from '../Footer.const'
 
 import './Footer-SocialLink.scss'

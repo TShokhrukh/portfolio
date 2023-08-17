@@ -1,4 +1,4 @@
-import type { IPopperViewModel } from '../../Popper/__types__'
+import type { IPopperViewModel } from '~/components/Popper/__types__'
 
 export interface ILanguagePickViewModel extends IPopperViewModel {
   supported: string[],

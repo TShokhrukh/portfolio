@@ -1,7 +1,7 @@
 import React from 'react'
+import { LanguagePick } from '~/components/LanguagePick/build'
 import { HeaderContext } from '../libs/context'
 import { cnHeader } from '../Header.const'
-import { LanguagePick } from '../../LanguagePick/LanguagePick'
 
 import type { IHeaderContext } from '../__types__'
 

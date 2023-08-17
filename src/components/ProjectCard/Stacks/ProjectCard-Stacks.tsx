@@ -1,6 +1,5 @@
 import React, { FC, useContext } from 'react'
-
-import { Badge } from '~/components/Badge/build/base'
+import { Badge } from '~/components/Badge/build'
 import { cnProjectCard, Context } from '../ProjectCard.const'
 import type { IProjectCardContext } from '../__types__'
 import './ProjectCard-Stacks.scss'

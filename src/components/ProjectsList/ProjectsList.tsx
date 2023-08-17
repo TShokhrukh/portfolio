@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import { cnProjectsList } from './ProjectsList.const'
-import { ProjectCard } from '~/components/ProjectCard/ProjectCard'
+import { ProjectCard } from '~/components/ProjectCard/build'
 import { List } from '~/components/List/List'
 import type { IProjectsListProps } from './__types__/ProjectsList.types'
 import './ProjectsList.scss'

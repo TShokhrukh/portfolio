@@ -1,3 +1,47 @@
 .Preview {
-  --preview-background: center / contain no-repeat url('./assets/preview-bg.svg');
+  --preview-background: center / contain no-repeat url('./res/preview-bg.svg');
+}
+
+.Preview-Inner_mobile  {
+  .Preview-Background {
+    background: var(--preview-background);
+  }
+
+  .Preview-Container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+
+  .Preview-Social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.Preview-Inner_desktop {
+  display: none;
+}
+
+@include media-breakpoint-up(xl) {
+  .Preview-Inner_mobile {
+    display: none;
+  }
+  .Preview-Inner_desktop  {
+    background: var(--preview-background);
+    display: block;
+  
+    .Preview-Container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      height: 100%;
+    }
+  
+    .Preview-Content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
 }

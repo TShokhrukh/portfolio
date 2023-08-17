@@ -1,8 +1,8 @@
 import React, { useRef } from 'react'
 import { Observer } from 'mobx-react'
 import { Text } from '@eo-locale/react'
-import { Button } from '../Button/Button'
-import { Popper } from '../Popper/Popper'
+import { Button } from '~/components/Button/build'
+import { Popper } from '~/components/Popper/build'
 import { cnLanguagePick } from './LanguagePick.const'
 
 import type { ILanguagePickProps } from './__types__'

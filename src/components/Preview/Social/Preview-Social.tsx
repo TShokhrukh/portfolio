@@ -1,5 +1,5 @@
 import React from 'react'
-import { Icon } from '~/components/Icon/Icon'
+import { Icon } from '~/components/Icon/build'
 import SocialLink from '../SocialLink'
 import { cnPreview, social } from '../Preview.const'
 

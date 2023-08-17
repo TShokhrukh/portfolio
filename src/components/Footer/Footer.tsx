@@ -1,11 +1,10 @@
 import React, { FC } from 'react'
-import { Icon } from '~/components/Icon/Icon'
+import { Icon } from '~/components/Icon/build'
 import { FooterSocialLink } from './SocialLink'
 import { FooterContent } from './Content'
 import { cnFooter } from './Footer.const'
 import { environment } from '~/environment'
 import type { IFooterProps } from './__types__'
-
 import './Footer.scss'
 
 export const Footer: FC<IFooterProps> = ({

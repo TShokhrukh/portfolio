@@ -1,13 +1,11 @@
 import React, { FC } from 'react'
-import { Card } from '~/components/Card/Card'
+import { Card } from '~/components/Card/build'
 import { ExperienceCardIcon } from './Icon'
 import { ExperienceCardBody } from './Body'
 import { ExperienceCardSkill } from './Skill'
 import { cnExperienceCard } from './ExperienceCard.const'
 import { Context } from './lib/context'
-
 import type { IExperienceCardProps } from './__types__'
-
 import './ExperienceCard.scss'
 
 export const ExperienceCard: FC<IExperienceCardProps> = ({
