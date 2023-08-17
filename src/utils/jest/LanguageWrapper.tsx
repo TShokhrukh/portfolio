@@ -4,19 +4,25 @@ import { TranslationsProvider } from '@eo-locale/react'
 import type { Locale } from '@eo-locale/core'
 
 interface IWrapperProps {
-  children: ReactNode
+  children: ReactNode,
+  language?: string,
+  locales?: Locale[]
 }
 
-const locales: Locale[] = [
+const defLocales: Locale[] = [
   {
     language: 'en',
     messages: {}
   }
 ]
 
-export const LanguageWrapper: React.FC<IWrapperProps> = ({ children }) => {
+export const LanguageWrapper: React.FC<IWrapperProps> = ({
+  children,
+  language = 'en',
+  locales = defLocales
+}) => {
   return (
-    <TranslationsProvider language='en' locales={locales} onError={() => null}>
+    <TranslationsProvider language={language} locales={locales} onError={() => null}>
       {children}
     </TranslationsProvider>
   )
