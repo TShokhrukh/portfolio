@@ -1,3 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Badge component template 1`] = `"SPAN"`;
+exports[`Badge must return the component template 1`] = `
+<span
+  class="Badge temp_class"
+  id="temp_id"
+  role="badge"
+>
+  children
+</span>
+`;

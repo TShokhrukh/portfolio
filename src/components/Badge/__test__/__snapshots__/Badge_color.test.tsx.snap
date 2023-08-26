@@ -1,8 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Badge_color component template 1`] = `
-<span
-  class="Badge"
-  role="badge"
-/>
-`;

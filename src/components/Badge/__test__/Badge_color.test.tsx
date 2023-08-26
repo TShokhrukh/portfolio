@@ -8,13 +8,7 @@ import { withBadgeColorPurple } from '../_color/Badge_color_purple'
 const Badge = compose(withBadgeColorPurple)(BadgeBase)
 
 describe('Badge_color', () => {
-  test('component template', () => {
-    render(<Badge role='badge' />)
-
-    expect(screen.getByRole('badge')).toMatchSnapshot()
-  })
-
-  test('component color purple', () => {
+  test('must add the \'Badge_color_purple\' class when color=\'purple\'', () => {
     render(<Badge data-testid='badge' color='purple' />)
 
     expect(screen.getByTestId('badge')).toHaveAttribute('class', 'Badge Badge_color_purple')
