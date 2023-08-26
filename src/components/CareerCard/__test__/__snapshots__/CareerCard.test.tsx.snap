@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CareerCard must return the component template 1`] = `
+<div
+  class="Card CareerCard"
+  data-testid="career_card"
+>
+  <h5
+    class="Typography Typography_color_white Typography_variant_h5 CareerCard-Title"
+  >
+    Title
+  </h5>
+  <p
+    class="Typography CareerCard-Desc"
+  >
+    desc
+  </p>
+  <div
+    class="CareerCard-Working"
+  >
+    <p
+      class="Typography Typography_color_purple CareerCard-Duration"
+    >
+      3
+       Y
+      1
+       M
+    </p>
+    <p
+      class="Typography Typography_color_purple CareerCard-Date"
+    >
+      2020/April
+       - 
+      2023/June
+    </p>
+  </div>
+</div>
+`;
