@@ -1,7 +1,6 @@
 import React, { FC } from 'react'
 import { Text } from '@eo-locale/react'
-import { Typography } from '~/components/Typography/build'
-import { Badge } from '~/components/Badge/build'
+import { BadgeSection } from '~/components/BadgeSection/build'
 import { SkillsContent } from './Content'
 import { cnSkills, Context } from './Skills.const'
 import type { ISkillsProps } from './__types__'
@@ -14,17 +13,10 @@ export const Skills: FC<ISkillsProps> = ({
 }) => {
   return (
     <Context.Provider value={{ skills }}>
-      <div {...props} className={cnSkills({}, [className])}>
-        <div>
-          <Badge color='purple'>
-            <Text id='skills.badge' />
-          </Badge>
-        </div>
-        <Typography variant='h2' color='white' className={cnSkills('Title')}>
-          <Text id='skills.title' />
-        </Typography>
+      <BadgeSection {...props} badge={<Text id='skills.badge' />} title={<Text id='skills.title' />}
+        className={cnSkills({}, [className])}>
         <SkillsContent />
-      </div>
+      </BadgeSection>
     </Context.Provider>
   )
 }

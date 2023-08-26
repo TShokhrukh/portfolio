@@ -1,9 +1,14 @@
 .Skills-Content {
+  display: flex;
+  justify-content: center;
+}
+
+.Skills-List {
   grid-template-columns: repeat(4, 1fr);
 }
 
 @include media-breakpoint-up(xl) {
-  .Skills-Content {
+  .Skills-List {
     grid-template-columns: repeat(6, 1fr);
   }
 }
