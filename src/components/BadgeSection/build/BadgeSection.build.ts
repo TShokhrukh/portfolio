@@ -1,0 +1,1 @@
+export { BadgeSection } from '../BadgeSection'
