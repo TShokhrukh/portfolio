@@ -1,0 +1,8 @@
+# dependencies
+/node_modules
+
+# out dir
+/build
+
+# ide
+.vscode
