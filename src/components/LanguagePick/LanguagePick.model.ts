@@ -15,6 +15,9 @@ export class LanguagePickModel implements ILanguagePickModel {
     makeObservable(this)
   }
 
+  /**
+   * returns supported languages except the current language
+   */
   get supported (): string[] {
     return this._supported.filter(l => l !== this.current)
   }
