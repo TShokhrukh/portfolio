@@ -1,0 +1,26 @@
+@import '~gardevoir';
+
+body {
+  background-color: $body-background;
+  color: $body-color;
+}
+
+.App {
+  --app-section-padding-y: #{$spacer * 10};
+  --app-section-padding-x: 0;
+  --app-header-height: 99px;
+}
+
+.App-Header {
+  margin-bottom: $spacer * 4;
+}
+
+@include media-breakpoint-up(xl) {
+  .App {
+    --app-section-padding-y: #{$spacer * 12.5};
+  }
+  .App-Header {
+    margin-top: $spacer * 3.75;
+    margin-bottom: 0;
+  }
+}

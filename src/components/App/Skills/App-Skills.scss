@@ -1,0 +1,9 @@
+.App-Skills {
+  padding: $spacer * 20 0;
+}
+
+@include media-breakpoint-up(xl) {
+  .App-SkillsContainer {
+    max-width: 920px;
+  }
+}
