@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CareerList must return the component template 1`] = `
+<div
+  class="List CareerList"
+  data-testid="career_list"
+>
+  <div
+    class="Card CareerCard CareerCard_active CareerList-Item"
+  >
+    <h5
+      class="Typography Typography_color_white Typography_variant_h5 CareerCard-Title"
+    >
+      Title 1
+    </h5>
+    <p
+      class="Typography CareerCard-Desc"
+    >
+      desc 1
+    </p>
+    <div
+      class="CareerCard-Working"
+    >
+      <p
+        class="Typography Typography_color_purple CareerCard-Duration"
+      >
+        careerCard.durationYears
+      </p>
+      <p
+        class="Typography Typography_color_purple CareerCard-Date"
+      >
+        2010/May
+         - 
+        2015/June
+      </p>
+    </div>
+  </div>
+  <div
+    class="Card CareerCard CareerList-Item"
+  >
+    <h5
+      class="Typography Typography_color_white Typography_variant_h5 CareerCard-Title"
+    >
+      Title 2
+    </h5>
+    <p
+      class="Typography CareerCard-Desc"
+    >
+      desc 2
+    </p>
+    <div
+      class="CareerCard-Working"
+    >
+      <p
+        class="Typography Typography_color_purple CareerCard-Duration"
+      >
+        careerCard.durationYears
+        careerCard.durationMonths
+      </p>
+      <p
+        class="Typography Typography_color_purple CareerCard-Date"
+      >
+        2016/April
+         - 
+        2023/June
+      </p>
+    </div>
+  </div>
+</div>
+`;
