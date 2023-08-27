@@ -68,6 +68,7 @@
     "@bem-react/di": "^5.0.0",
     "@eo-locale/react": "^1.7.0",
     "@popperjs/core": "^2.11.8",
+    "date-fns": "^2.30.0",
     "font-awesome": "^4.7.0",
     "gardevoir": "^1.0.0",
     "mobx": "^6.9.0",
