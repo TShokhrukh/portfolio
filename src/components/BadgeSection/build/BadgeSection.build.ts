@@ -1,1 +1,0 @@
-export { BadgeSection } from '../BadgeSection'

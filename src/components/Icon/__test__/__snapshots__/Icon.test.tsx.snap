@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Icon component template 1`] = `
-<span
-  aria-hidden="true"
-  class="fa fa-user Icon"
-  data-testid="icon"
-/>
-`;

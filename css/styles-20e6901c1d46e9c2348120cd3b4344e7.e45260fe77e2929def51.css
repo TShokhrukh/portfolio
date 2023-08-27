@@ -1,0 +1,1 @@
+.Footer{--footer-background-color: rgba(123, 74, 226, 0.1);--footer-padding-y: 8px;--footer-padding-x: 0;background-color:var(--footer-background-color);padding:var(--footer-padding-y) var(--footer-padding-x)}.Footer-Content{display:flex;justify-content:center}

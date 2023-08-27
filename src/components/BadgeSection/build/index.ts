@@ -1,1 +1,0 @@
-export * from './BadgeSection.build'

@@ -1,0 +1,1 @@
+.AboutMe{--about-me-template-columns: 1fr;--about-gap: 16px;display:grid;grid-template-columns:var(--about-me-template-columns);gap:var(--about-gap)}@media(min-width: 1200px){.AboutMe{--about-me-template-columns: 40% 1fr}}

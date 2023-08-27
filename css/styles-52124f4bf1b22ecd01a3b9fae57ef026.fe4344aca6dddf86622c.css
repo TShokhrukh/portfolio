@@ -1,0 +1,1 @@
+.Card{--card-border-color: rgba(123, 74, 226, 0.5);--card-border-radius: 16px;--card-padding-x: 20px;--card-padding-y: 30px;border-radius:var(--card-border-radius);border:1px solid var(--card-border-color);padding:var(--card-padding-y) var(--card-padding-x);transition:.2s}.Card:hover{--card-border-color: transparent;background-color:rgba(123,74,226,.1)}
