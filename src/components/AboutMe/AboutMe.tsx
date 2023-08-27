@@ -4,7 +4,7 @@ import { AboutMeDesc } from './Desc'
 import { cnAboutMe } from './AboutMe.const'
 import { Context } from './lib/context'
 import type { IAboutMeProps } from './__types__'
-import avatar from './res/avatar.png'
+import avatar from './res/avatar.jpg'
 import './AboutMe.scss'
 
 export const AboutMe: FC<IAboutMeProps> = ({
