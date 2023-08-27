@@ -1,10 +1,8 @@
 import { IClassNameProps } from '@bem-react/core'
-import type { ICareer } from '~/components/CareerCard/__types__'
-
-export type TCareerList = ICareer[]
+import type { ICareer, TCareersList } from '~/types'
 
 export interface ICareerListProps extends IClassNameProps {
-  careers: TCareerList
+  careers: TCareersList
 }
 
-export { ICareer }
+export { ICareer, TCareersList }

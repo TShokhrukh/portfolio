@@ -7,6 +7,7 @@ import { ExperienceCard } from '../ExperienceCard'
 describe('ExperienceCard', () => {
   test('must return the component template', () => {
     const experience = {
+      id: '1',
       icon: 'home',
       locales: {
         en: {

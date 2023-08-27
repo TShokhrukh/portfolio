@@ -3,11 +3,11 @@ import { useTranslator } from '@eo-locale/react'
 import { Card } from '~/components/Card/build'
 import { cnCareerCard } from './CareerCard.const'
 import { Context } from './lib/context'
-import type { ICareerCardProps } from './__types__'
 import { CareerCardTitle } from './Title'
 import { CareerCardDesc } from './Desc'
 import { CareerCardWorking } from './Working'
 import './CareerCard.scss'
+import type { ICareerCardProps } from './__types__'
 
 export const CareerCard: FC<ICareerCardProps> = ({ career, className, ...props }) => {
   const t = useTranslator()

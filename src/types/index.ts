@@ -1,3 +1,2 @@
-export type TLocale<T> = {
-  [K: string]: T
-}
+export * from './base'
+export * from './react'

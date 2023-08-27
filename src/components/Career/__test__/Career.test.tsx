@@ -3,11 +3,11 @@ import React from 'react'
 import { render, screen } from '@testing-library/react'
 import { LanguageWrapper } from '~/utils/jest/LanguageWrapper'
 import { Career } from '../Career'
-import type { TCareerList } from '../__types__'
+import type { TCareersList } from '../__types__'
 
 describe('Career', () => {
   test('must return the component template', () => {
-    const careers: TCareerList = [
+    const careers: TCareersList = [
       {
         id: '1',
         active: true,

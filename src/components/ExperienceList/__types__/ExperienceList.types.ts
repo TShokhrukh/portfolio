@@ -1,12 +1,13 @@
 import type { ElementType } from 'react'
 import type { IClassNameProps } from '@bem-react/core'
-import type { IExperience } from '~/components/ExperienceCard/__types__'
-
-interface IExperienceList extends IExperience {
-  id: string
-}
+import type { TExperienceList, IExperience } from '~/types'
 
 export interface IExperienceListProps extends IClassNameProps {
   component?: ElementType,
-  experience: IExperienceList[]
+  experience: TExperienceList
+}
+
+export {
+  IExperience,
+  TExperienceList
 }

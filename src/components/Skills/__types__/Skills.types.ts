@@ -1,15 +1,14 @@
 import type { IClassNameProps } from '@bem-react/core'
-
-export interface ISkill {
-  id: string,
-  title?: string,
-  img: string
-}
+import type { ISkill, TSkillsList } from '~/types'
 
 export interface ISkillsProps extends IClassNameProps {
-  skills: ISkill[]
+  skills: TSkillsList
 }
 
 export interface ISkillsContext {
-  skills: ISkill[]
+  skills: TSkillsList
+}
+
+export {
+  ISkill
 }
