@@ -1,5 +1,5 @@
 import { withBemMod } from '@bem-react/core'
-import { Link } from '~/components/Link/build'
+import { Link } from '~/components/Link'
 import { cnPreview } from '../Preview.const'
 
 import './Preview-SocialLink.scss'

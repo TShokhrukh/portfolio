@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import { Typography } from '~/components/Typography/build'
+import { Typography } from '~/components/Typography'
 import { cnCareerCard } from '../CareerCard.const'
 import './CareerCard-Desc.scss'
 

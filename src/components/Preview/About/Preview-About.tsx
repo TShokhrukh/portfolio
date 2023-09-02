@@ -1,6 +1,6 @@
 import React from 'react'
 import { Text } from '@eo-locale/react'
-import { Badge } from '~/components/Badge/build'
+import { Badge } from '~/components/Badge'
 
 import { cnPreview } from '../Preview.const'
 import './Preview-About.scss'

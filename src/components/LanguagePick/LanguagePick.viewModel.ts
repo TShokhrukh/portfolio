@@ -1,6 +1,6 @@
 import { makeObservable, observable, action } from 'mobx'
 import type { ILanguagePickViewModel, ILanguagePickModel } from './__types__'
-import type { IPopperModel } from '../Popper/__types__'
+import type { IPopperModel } from '../Popper'
 
 export class LanguagePickViewModel implements ILanguagePickViewModel {
   @observable.ref private language: ILanguagePickModel

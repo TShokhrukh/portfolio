@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
-import { ExperienceCard } from '~/components/ExperienceCard/build'
-import { List } from '~/components/List/build'
+import { ExperienceCard } from '~/components/ExperienceCard'
+import { List } from '~/components/List'
 import { cnExperienceList } from './ExperienceList.const'
 import type { IExperienceListProps } from './__types__'
 import './ExperienceList.scss'

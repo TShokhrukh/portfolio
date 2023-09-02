@@ -1,5 +1,5 @@
 import React, { useContext, FC } from 'react'
-import { List } from '~/components/List/List'
+import { List } from '~/components/List'
 import { SkillsItem } from '../Item'
 import { Context, cnSkills } from '../Skills.const'
 import type { ISkillsContext } from '../__types__'

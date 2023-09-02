@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import { Preview } from '~/components/Preview/build'
+import { Preview } from '~/components/Preview'
 import { environment } from '~/environment'
 import { cnApp } from '../App.const'
 import './App-Preview.scss'

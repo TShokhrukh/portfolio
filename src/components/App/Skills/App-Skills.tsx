@@ -1,6 +1,6 @@
 import React from 'react'
-import { Container } from '~/components/Container/build'
-import { Skills } from '~/components/Skills/build'
+import { Container } from '~/components/Container'
+import { Skills } from '~/components/Skills'
 import { cnApp } from '../App.const'
 import { useAppContext } from '../libs/context'
 import './App-Skills.scss'

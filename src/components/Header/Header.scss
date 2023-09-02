@@ -9,17 +9,27 @@
   color: var(--header-color);
 }
 
-// .Header-Container {
-//   border-radius: $spacer * 2;
-//   background-color: $black;
-//   display: flex;
-//   gap: $spacer * 3;
-//   color: $dark;
-//   padding: $spacer * 1.5 $spacer * 3;
-// }
+.Header-BarsBtn {
+  height: 100%;
+}
 
-// .Header-Nav {
-//   display: flex;
-//   align-items: center;
-//   margin-left: auto;
-// }
+.Header-Navbar_mobile {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.Header-Navbar_desktop {
+  display: none;
+}
+
+@include media-breakpoint-up(xl) {
+  .Header-Navbar_mobile {
+    display: none;
+  }
+  .Header-Navbar_desktop {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+}

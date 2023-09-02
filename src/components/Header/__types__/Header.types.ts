@@ -1,9 +1,11 @@
 import type { IClassNameProps } from '@bem-react/core'
-import type { ILink } from '~/components/Nav/__types__'
-import type { ILanguagePickViewModel } from '~/components/LanguagePick/__types__'
+import type { ILink } from '~/components/Nav'
+import type { ILanguagePickViewModel } from '~/components/LanguagePick'
+import type { IDrawerViewModel } from '~/components/Drawer'
 
 export interface IHeaderViewModel {
   language: ILanguagePickViewModel
+  drawer: IDrawerViewModel
 }
 
 export interface IHeaderContext {

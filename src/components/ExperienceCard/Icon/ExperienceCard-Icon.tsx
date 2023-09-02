@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { Icon } from '~/components/Icon/build'
+import { Icon } from '~/components/Icon'
 import { Context } from '../lib/context'
 import { cnExperienceCard } from '../ExperienceCard.const'
 

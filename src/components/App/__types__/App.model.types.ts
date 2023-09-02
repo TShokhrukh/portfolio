@@ -1,6 +1,6 @@
 import type { TranslationError, Locale } from '@eo-locale/core'
-import type { IHeaderViewModel } from '../../Header/__types__'
-import type { ILanguagePickModel } from '../../LanguagePick/__types__'
+import type { IHeaderViewModel } from '~/components/Header'
+import type { ILanguagePickModel } from '~/components/LanguagePick'
 
 export interface IAppModel {
 

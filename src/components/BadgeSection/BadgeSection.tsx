@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
-import { Typography } from '~/components/Typography/build'
-import { Badge } from '~/components/Badge/build'
+import { Typography } from '~/components/Typography'
+import { Badge } from '~/components/Badge'
 import { cnBadgeSection } from './BadgeSection.const'
 import type { IBadgeSectionProps } from './__types__'
 import './BadgeSection.scss'

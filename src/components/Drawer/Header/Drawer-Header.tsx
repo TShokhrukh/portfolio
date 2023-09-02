@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
-import { Button } from '~/components/Button/build'
-import { Icon } from '~/components/Icon/build'
+import { Button } from '~/components/Button'
+import { Icon } from '~/components/Icon'
 import { useDrawerContext } from '../lib/context'
 import { cnDrawer } from '../Drawer.const'
 import './Drawer-Header.scss'

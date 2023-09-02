@@ -1,8 +1,7 @@
-import { HeaderViewModel } from '../Header/Header.viewModel'
-import { PopperModel } from '../Popper/Popper.model'
+import { HeaderViewModel, IHeaderViewModel } from '../Header'
+import { PopperModel } from '../Popper'
+import { DrawerModel } from '../Drawer'
 import { AppLanguagePickModel } from './model'
-
-import type { IHeaderViewModel } from '../Header/__types__'
 import type { IAppViewModel } from './__types__'
 
 export class AppViewModel implements IAppViewModel {
@@ -14,7 +13,8 @@ export class AppViewModel implements IAppViewModel {
 
     this.header = new HeaderViewModel(
       this.locales,
-      new PopperModel()
+      new PopperModel(),
+      new DrawerModel()
     )
   }
 }

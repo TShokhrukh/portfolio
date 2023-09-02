@@ -4,6 +4,7 @@ import type { Locale } from '@eo-locale/core'
 import { render, screen } from '@testing-library/react'
 import { LanguagePickModel } from '~/components/LanguagePick/LanguagePick.model'
 import { PopperModel } from '~/components/Popper/Popper.model'
+import { DrawerModel } from '~/components/Drawer/Drawer.model'
 import { LanguageWrapper } from '~/utils/jest/LanguageWrapper'
 import { Header } from '../Header'
 import { HeaderViewModel } from '../Header.viewModel'
@@ -29,7 +30,8 @@ describe('Header', () => {
   beforeEach(() => {
     viewModel = new HeaderViewModel(
       new LanguagePickModel('en', ['en', 'ru', 'uz']),
-      new PopperModel()
+      new PopperModel(),
+      new DrawerModel()
     )
   })
 

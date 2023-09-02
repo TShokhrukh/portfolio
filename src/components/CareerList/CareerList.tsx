@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import { List } from '~/components/List/build'
+import { List } from '~/components/List'
 import { CareerListItem } from './Item'
 import { cnCareerList } from './CareerList.const'
 import type { ICareerListProps } from './__types__'

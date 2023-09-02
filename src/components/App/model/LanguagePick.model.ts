@@ -1,6 +1,6 @@
 import { makeObservable, observable, action } from 'mobx'
 import type { TranslationError, Locale } from '@eo-locale/core'
-import { LanguagePickModel } from '~/components/LanguagePick/LanguagePick.model'
+import { LanguagePickModel } from '~/components/LanguagePick'
 import type { IAppLanguagePickModel } from '../__types__'
 
 export class AppLanguagePickModel extends LanguagePickModel implements IAppLanguagePickModel {

@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import { useTranslator } from '@eo-locale/react'
-import { Card } from '~/components/Card/build'
+import { Card } from '~/components/Card'
 import { cnCareerCard } from './CareerCard.const'
 import { Context } from './lib/context'
 import { CareerCardTitle } from './Title'

@@ -1,5 +1,5 @@
 import { withBemMod } from '@bem-react/core'
-import { Container } from '~/components/Container/build'
+import { Container } from '~/components/Container'
 import { cnFooter } from '../Footer.const'
 
 import './Footer-Content.scss'

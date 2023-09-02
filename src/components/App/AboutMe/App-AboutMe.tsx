@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
-import { Container } from '~/components/Container/build'
-import { AboutMe } from '~/components/AboutMe/AboutMe'
+import { Container } from '~/components/Container'
+import { AboutMe } from '~/components/AboutMe'
 import { cnApp } from '../App.const'
 
 import './App-AboutMe.scss'

@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
-import { ExperienceList } from '~/components/ExperienceList/build'
-import { Container } from '~/components/Container/build'
+import { ExperienceList } from '~/components/ExperienceList'
+import { Container } from '~/components/Container'
 import { cnApp } from '../App.const'
 import { useAppContext } from '../libs/context'
 import './App-Experience.scss'

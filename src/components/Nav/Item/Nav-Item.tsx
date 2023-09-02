@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Text } from '@eo-locale/react'
-import { Link } from '~/components/Link/build'
+import { Link } from '~/components/Link'
 import { cnNav } from '../Nav.const'
 import { useNavContext } from '../lib/useNavContext'
 import type { INavItemProps } from '../__types__'

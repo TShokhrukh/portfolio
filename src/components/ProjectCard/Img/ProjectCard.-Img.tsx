@@ -1,5 +1,5 @@
 import React, { FC, useContext } from 'react'
-import { Img } from '~/components/Img/build'
+import { Img } from '~/components/Img'
 import { Context, cnProjectCard } from '../ProjectCard.const'
 import type { IProjectCardContext } from '../__types__'
 import './ProjectCard-Img.scss'

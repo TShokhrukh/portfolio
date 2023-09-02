@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import { Icon } from '~/components/Icon/build'
+import { Icon } from '~/components/Icon'
 import { FooterSocialLink } from './SocialLink'
 import { FooterContent } from './Content'
 import { cnFooter } from './Footer.const'

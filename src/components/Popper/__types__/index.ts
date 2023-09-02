@@ -1,5 +1,4 @@
 import type { RefObject, ComponentType, ReactNode } from 'react'
-import type { IClassNameProps } from '@bem-react/core'
 import type * as PopperJS from '@popperjs/core'
 
 interface ITargetProps {

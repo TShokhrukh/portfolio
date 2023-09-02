@@ -1,5 +1,4 @@
-.Header-Nav {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
+.Header-Nav.Nav_direction_vertical .Nav-ItemLink {
+  display: block;
+  padding: $spacer 0;
 }

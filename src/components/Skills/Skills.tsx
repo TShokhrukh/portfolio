@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import { Text } from '@eo-locale/react'
-import { BadgeSection } from '~/components/BadgeSection/build'
+import { BadgeSection } from '~/components/BadgeSection'
 import { SkillsContent } from './Content'
 import { cnSkills, Context } from './Skills.const'
 import type { ISkillsProps } from './__types__'

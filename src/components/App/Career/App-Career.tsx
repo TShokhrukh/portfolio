@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
-import { Container } from '~/components/Container/build'
-import { Career } from '~/components/Career/build'
+import { Container } from '~/components/Container'
+import { Career } from '~/components/Career'
 import { cnApp } from '../App.const'
 import { useAppContext } from '../libs/context'
 import './App-Career.scss'
