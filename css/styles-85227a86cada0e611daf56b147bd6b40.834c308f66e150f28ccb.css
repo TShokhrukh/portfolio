@@ -1,0 +1,1 @@
+.Drawer{--drawer-width: 350px;position:fixed;width:100%;height:100vh;top:0}.Drawer-Mask{width:100%;height:100vh;background:rgba(0,0,0,.6)}.Drawer-Wrapper{width:var(--drawer-width);max-width:80%;position:absolute;top:0;background:#131b29;height:100%}
