@@ -1,9 +1,8 @@
-import React, { useContext } from 'react'
-import { Context } from '../lib/context'
-import type { TPopperContext } from '../__types__'
+import React from 'react'
+import { usePopperContext } from '../lib/context'
 
 export const PopperTarget: React.FC = () => {
-  const { target: Target, viewModel, id } = useContext<TPopperContext>(Context)
+  const { target: Target, viewModel, id } = usePopperContext()
 
   if (!Target) {
     return null
