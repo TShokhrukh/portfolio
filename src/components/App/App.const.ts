@@ -18,6 +18,14 @@ export const links = [
   {
     href: '#projects',
     label: 'nav.projects'
+  },
+  {
+    href: '#skills',
+    label: 'nav.skills'
+  },
+  {
+    href: '#career',
+    label: 'nav.career'
   }
 ]
 
