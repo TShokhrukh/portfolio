@@ -1,7 +1,7 @@
-import { compose } from '@bem-react/core'
+import { compose, composeU } from '@bem-react/core'
 import { Nav as NavBase } from '../Nav'
-import { withNavDirectionHorizontal } from '../_direction'
+import { withNavDirectionHorizontal, withNavDirectionVertical } from '../_direction'
 
 export const Nav = compose(
-  withNavDirectionHorizontal
+  composeU(withNavDirectionHorizontal, withNavDirectionVertical)
 )(NavBase)

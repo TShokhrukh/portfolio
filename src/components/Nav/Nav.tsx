@@ -2,7 +2,7 @@ import React from 'react'
 import { cnNav } from './Nav.const'
 import NavItem from './Item'
 import type { INavProps } from './__types__'
-import { NavContext } from './libs/context'
+import { NavContext } from './lib/context'
 
 import './Nav.scss'
 
