@@ -1,1 +1,0 @@
-.Skills-Content{display:flex;justify-content:center}.Skills-List{grid-template-columns:repeat(4, 1fr)}@media(min-width: 1200px){.Skills-List{grid-template-columns:repeat(6, 1fr)}}
