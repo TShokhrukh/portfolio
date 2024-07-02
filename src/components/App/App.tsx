@@ -1,7 +1,8 @@
 import React, { useEffect, useState, FC } from 'react'
 import { observer } from 'mobx-react'
 import { setDefaultOptions } from 'date-fns'
-import { ru } from 'date-fns/locale'
+import ru from 'date-fns/locale/ru'
+import en from 'date-fns/locale/en-US'
 import { TranslationsProvider } from '@eo-locale/react'
 import { Header } from '~/components/Header'
 import { Footer } from '~/components/Footer'
@@ -27,7 +28,11 @@ export const App: FC<IAppProps> = observer(
     })
     useEffect(() => {
       document.documentElement.setAttribute('lang', viewModel.locales.current)
-      setDefaultOptions({ locale: ru, weekStartsOn: 1 })
+      if (viewModel.locales.current === 'ru') {
+        setDefaultOptions({ locale: ru, weekStartsOn: 1 })
+        return
+      }
+      setDefaultOptions({ locale: en, weekStartsOn: 1 })
     }, [viewModel.locales.current])
 
     return (
