@@ -17,15 +17,15 @@ export const EXPERIENCE: TExperienceList = [
   },
   {
     id: '2',
-    icon: 'cloud',
+    icon: 'server',
     locales: {
       en: {
         body: '1 year',
-        skill: 'Bitrix'
+        skill: 'NodeJS'
       },
       ru: {
         body: '1 год',
-        skill: 'Bitrix'
+        skill: 'NodeJS'
       }
     }
   }

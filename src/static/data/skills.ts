@@ -3,6 +3,7 @@ import ts from '~/static/img/ts.png'
 import nodejs from '~/static/img/node-js.png'
 import electronjs from '~/static/img/electron-js.png'
 import react from '~/static/img/react.png'
+import angular from '~/static/img/angular.png'
 import css from '~/static/img/css.png'
 import tailwindcss from '~/static/img/tailwindcss.png'
 import bootstrap from '~/static/img/bootstrap.png'
@@ -32,6 +33,11 @@ export const SKILLS: TSkillsList = [
     img: react,
     title: 'React',
     id: 'react'
+  },
+  {
+    img: angular,
+    title: 'Angular',
+    id: 'angular'
   },
   {
     img: electronjs,
