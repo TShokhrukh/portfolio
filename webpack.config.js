@@ -53,14 +53,15 @@ const configuration = {
       new TsconfigPathsPlugin()
     ],
     alias: {
+      tsyringe: require.resolve('tsyringe/dist/esm2015/index.js'),
       '~': path.resolve(__dirname, 'src')
     }
   },
   output: {
     path: path.resolve(__dirname, 'build'),
-    filename: 'js/[name].[contenthash].bundle.js',
-    chunkFilename: 'js/[name].[contenthash].chunk.js',
-    assetModuleFilename: IS_DEV ? './assets/[name].[contenthash][ext]' : './assets/[contenthash][ext]'
+    filename: 'js/[name].[contenthash:6].bundle.js',
+    chunkFilename: 'js/[name].[contenthash:6].chunk.js',
+    assetModuleFilename: IS_DEV ? './assets/[name].[contenthash:6][ext]' : './assets/[contenthash:6][ext]'
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -69,7 +70,7 @@ const configuration = {
       cache: true,
       template: './public/index.html',
       hash: IS_DEV,
-      title: 'Document',
+      title: 'TShokhrukh | Portfolio',
       options: {
         PUBLIC_PATH: '',
         NOSCRIPT_TEXT: 'You need to enable JavaScript to run this app.'
@@ -92,7 +93,7 @@ const configuration = {
           }
         : undefined
     }),
-    new ForkTsCheckerWebpackPlugin(),
+    // new ForkTsCheckerWebpackPlugin(),
     new Dotenv(),
     new ESLintPlugin({
       extensions: ['.ts', '.tsx', '.json'],
@@ -100,8 +101,8 @@ const configuration = {
     }),
     IS_PROD && (
       new MiniCssExtractPlugin({
-        filename: 'css/[name].[contenthash].css',
-        chunkFilename: 'css/[name].[hash].chunk.css'
+        filename: 'css/[name].[contenthash:3].css',
+        chunkFilename: 'css/[name].[hash:3].chunk.css'
       })
     ),
     new CopyPlugin({
@@ -128,21 +129,26 @@ const configuration = {
       name: (entrypoint) => `runtime-${entrypoint.name}`
     },
     splitChunks: {
-      chunks: 'all',
+      // chunks: 'all',
       cacheGroups: {
         vendors: {
           test: /[\\/]node_modules[\\/]/,
           name (module, chunks, cacheGroupKey) {
-            return IS_DEV ? `${cacheGroupKey}-${module.resourceResolveData.descriptionFileData.name}` : `${cacheGroupKey}.${module.buildInfo.hash}`
+            const name = module.identifier()// .split('/')
+              .match(/node_modules(\/|\\)([^(/|\\)]+)/i)[2] // get vendor name
+              .replace(/[^a-z]/gi, '') // remove symbols
+
+            return IS_DEV ? `vendors-${name}` : `${cacheGroupKey}`
           },
           chunks: 'all'
         },
         styles: IS_PROD && ({
-          name (module, chunks, cacheGroupKey) {
-            return `${cacheGroupKey}-${module.buildInfo.hash}`
-          },
+          // name (module, _chunks, _cacheGroupKey) {
+          //   return `${module.debugId}`
+          //   // return `${module.buildInfo.hash.slice(0, 5)}`
+          // },
           type: 'css/mini-extract',
-          chunks: 'all',
+          // chunks: 'all',
           enforce: true
         })
       }
@@ -153,7 +159,7 @@ const configuration = {
       directory: path.resolve(__dirname, 'build')
     },
     watchFiles: path.join(__dirname, 'src'),
-    port: 9000,
+    port: 3001,
     liveReload: true
   }
 }
