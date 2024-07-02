@@ -56,11 +56,10 @@ exports[`Preview must return the component template 1`] = `
           class="Preview-CV"
         >
           <a
-            class="Link Button"
+            class="Button Button_variant_link"
             href="https://telegram.org/"
             rel="noopener noreferrer"
             target="_blank"
-            type="button"
           >
             <span
               aria-hidden="true"
@@ -126,11 +125,10 @@ exports[`Preview must return the component template 1`] = `
           class="Preview-CV"
         >
           <a
-            class="Link Button"
+            class="Button Button_variant_link"
             href="https://telegram.org/"
             rel="noopener noreferrer"
             target="_blank"
-            type="button"
           >
             <span
               aria-hidden="true"

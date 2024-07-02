@@ -16,13 +16,30 @@ exports[`Header must return the component template 1`] = `
         class="Header-LogoImage"
       />
     </div>
-    <nav
-      class="Nav Nav_direction_horizontal Header-Nav"
+    <div
+      class="Header-Navbar Header-Navbar_desktop"
     >
-      <ul
-        class="Nav-List"
-      />
-    </nav>
+      <nav
+        class="Nav Nav_direction_horizontal Header-Nav"
+      >
+        <ul
+          class="Nav-List"
+        />
+      </nav>
+    </div>
+    <div
+      class="Header-Navbar Header-Navbar_mobile"
+    >
+      <button
+        class="Button Header-BarsBtn"
+        type="button"
+      >
+        <span
+          aria-hidden="true"
+          class="fa fa-bars Icon"
+        />
+      </button>
+    </div>
     <button
       aria-describedby="LanguagePick"
       class="Button LanguagePick Header-LanguagePick"

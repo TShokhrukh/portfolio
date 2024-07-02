@@ -10,7 +10,6 @@ exports[`Footer component template 1`] = `
   >
     <a
       class="Link Footer-SocialLink"
-      href="https://github.com/TShokhrukh"
       rel="noopener noreferrer"
       target="_blank"
     >
